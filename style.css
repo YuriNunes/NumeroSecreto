@@ -1,0 +1,55 @@
+/* variáveis gerais */
+
+:root{
+    --fonte-principal: 'Macondo', cursive;
+    --cor-de-fundo: #e3c292;
+    --cor-da-fonte: #693e1f;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cor-da-fonte);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 8rem;
+}
+
+h3{
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 3em;
+    margin-top: 40px;
+}
+
+.box{
+    border: dashed 4px var(--cor-da-fonte);
+    border-radius: 15px;
+    font-size: 4em;
+    display: inline-block;
+}
+
+.btn-jogar{
+    background: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    color: var(--cor-da-fonte);
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border: dashed 2px var(--cor-da-fonte);
+    cursor: pointer;
+}
